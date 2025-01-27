@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://haneeshdabbadi:dabbadihaneesh@cluster0.pmazw.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<your-db-name>:<your-db-password>@cluster0.pmazw.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
