@@ -83,32 +83,10 @@ Once the app is running, you can start adding tasks to your to-do list. You can 
 
 ---
 
-## 🙏 Contributions
+## Key TakeDowns in Code
 
-Contributions are always welcome! If you'd like to contribute to the project, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-
-   ```bash
-   git checkout -b feature/<your-feature-name>
-   ```
-
-3. Commit your changes:
-
-   ```bash
-   git commit -m "Added <feature-name>"
-   ```
-
-4. Push to the branch:
-
-   ```bash
-   git push origin feature/<your-feature-name>
-   ```
-
-5. Open a pull request.
-
----
+- Keep your own database name and database password of mongoDb cluster to work on server side.
+- So,change the connection string link of the mongodb client with yours cluster's connection string on server side. (i.e in *index.js* file)
 
 ## ❤️ License
 
